@@ -1,0 +1,22 @@
+{
+  "name": "projectwebapi",
+  "version": "1.0.0",
+  "description": "project web api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LDB",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "express": "^4.16.2",
+    "joi": "^13.3.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.2",
+    "path": "^0.12.7",
+    "lodash": "^4.17.4"
+  }
+}
